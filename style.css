@@ -1,0 +1,277 @@
+/*------------------------------------------------------------------
+    Main Style Stylesheet
+    Project:        TheOne Portfolio One Page Responsive
+    Version:        1.0
+    Author:         othmanDes
+    Primary use:    Portfolio, Personal
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+body 
+ + Page Loader
+ + BOTTON SCROLL TO TOP
+ + NAVIGATION
+ + HEADER
+ + ABOUT
+ + SERVICES
+ + PORTFOLI
+ + TEAMS
+ + CONTACT
+-------------------------------------------------------------------*/
+
+/*===== Import Lato Font =====*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+/*===== Headinge font =====*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+
+/*===== My Classes =====*/
+
+
+/*===== Color font and background =====*/
+
+.color {
+    color:#4e73d6;
+}
+
+.background {
+    background-color: #4e73d6;
+    color: #fff;
+}
+
+
+/*===== padding betwen section =====*/
+
+.section {
+    padding: 120px 0;
+    padding-bottom: 20px;
+    overflow: hidden;
+    height: auto;
+}
+
+
+/*=====  margin top =====*/
+
+.mrg5 {
+    margin-top: 5px;
+}
+
+.mrg10 {
+    margin-top: 10px;
+}
+
+.mrg15 {
+    margin-top: 15px;
+}
+
+.mrg20 {
+    margin-top: 20px;
+}
+
+.mrg30 {
+    margin-top: 30px;
+}
+
+.mrg40 {
+    margin-top: 40px;
+}
+
+
+/*=====  overflow  =====*/
+
+.overflow {
+    overflow: hidden;
+}
+
+
+/*=====  active class link  =====*/
+
+.current > a {
+    color: #D64E56 !important;
+}
+
+
+/*===== My Custom Css =====*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding-top: 70px;
+}
+
+/*===== Page Loader =====*/
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1060;
+    background: url(../img/Preloader_3.gif) center no-repeat #fff;
+}
+
+/*===== Button Scroll To Top =====*/
+
+/*.btn_top {
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+/*===== Section Navbar =====*/
+
+.navbar-default {
+    border: 1px solid #ccc;
+    border-radius: 0;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #D64E56;
+}
+
+
+/*===== Section Header =====*/
+
+#header {
+    height: calc(100vh - 70px);
+    background-image: url(../img/bg_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#header #overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+#header #header_info {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#header #header_info .my_works {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    -webkit-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+}
+
+#header #header_info .my_works:hover {
+    background-color: #BA1F27;
+}
+
+
+/*===== Section About =====*/
+
+#about #about_me img {
+    width: 100%;
+    height: 500px;
+}
+
+#about .resume {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 5px;
+    border: 0;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #D64E56;
+    -webkit-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+}
+
+#about .resume:hover {
+    background-color: #BA1F27;
+}
+
+
+/*===== Section Services =====*/
+
+#services .single_item {
+    border: 1px solid #ccc;
+    padding: 20px 10px 50px;
+    border-radius: 0 25px;
+    font-size: 15px;
+}
+
+
+/*===== Section Portfolio  =====*/
+
+#portfolio #gallery img {
+    width: 100%;
+    margin: 15px 0;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#portfolio #gallery img:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+/*===== Section Team  =====*/
+
+#team img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*===== Section Contact  =====*/
+
+#contact {
+    margin-top: -60px;
+}
+
+#contact .info i {
+    margin-right: 5px;
+}
+
+#frm_contact textarea {
+    resize: none;
+}
+
+#frm_contact .send {
+    background-color: #D64E56;
+    color: #fff;
+    font-weight: 700;
+}

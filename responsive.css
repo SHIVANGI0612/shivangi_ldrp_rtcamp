@@ -1,0 +1,49 @@
+/*================= Media Query All Devices =================*/
+
+@media only screen and (max-width: 767px) {
+    #about #about_me img {
+        margin-top: -50px;
+    }
+    .lead {
+        font-weight: 300;
+        line-height: 1.7em;
+    }
+    #team .single_team {
+    margin-bottom: 40px ;
+}
+    
+    #contact .info {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #about #about_me img {
+        margin-top: -50px;
+    }
+    .lead {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 2em;
+    }
+    
+     #team .single_team {
+    margin-bottom: 60px ;
+}
+}
+
+@media only screen and (min-width: 992px) {
+    .lead {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 2em;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .lead {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 2em;
+    }
+}
